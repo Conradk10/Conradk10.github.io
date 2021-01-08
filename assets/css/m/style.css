@@ -10,8 +10,8 @@ body {
     font: 'Product Sans';
 }
 .blur {
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 .center {
     justify-content: center;
@@ -73,7 +73,7 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: grey;
+    color: white;
 }
 
 button:active, button:focus {
