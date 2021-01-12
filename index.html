@@ -1,170 +1,162 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>/home/conradk10</title>
-        <meta property="og:title" content="Conradk10">
-        <meta property="og:locale" content="en_EU">
-        <meta property="og:description" content="Conradk10's main page">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/favico/eblan.png" type="image/png">
-        <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
-        <link rel="stylesheet" href="assets/fonts/gsans/style.css">
-        <link rel="stylesheet" href="assets/vars.css">
-        <link rel="stylesheet" href="assets/css/index/style.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-        <meta name="theme-color" content="#555555">
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>/home/conradk10</title>
+  <meta property="og:title" content="Conradk10">
+  <meta property="og:locale" content="en_EU">
+  <meta property="og:description" content="Conradk10's main page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favico/eblan.png" type="image/png">
+  <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+  <link rel="stylesheet" href="assets/vars.css">
+  <link rel="stylesheet" href="assets/css/index/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+  <meta name="theme-color" content="#555555">
+</head>
 
-    <body class="center">
-        <script>
-            var test = false;
-            if (!test) {
-                function isMobile() {
-                    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-                }
-            }
-            function is_shit() {
-                if (/MSIE/i.test(navigator.userAgent)) return true
-                if (/firefox/i.test(navigator.userAgent)) return true
-                if (/Trident/i.test(navigator.userAgent)) return true
-                if (/Edge/i.test(navigator.userAgent)) return true
-                return false
-            }
-            if (is_shit()) {
-                document.body.style.backgroundImage = "url('assets/anims/aye.gif')";
-            }
-        </script>
+<body class="center">
+  <script>
+    var test = false;
+    if (!test) {
+      function isMobile() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+      }
+    }
 
-        <div id="donate">
-            <div class="popup">
-                <h1>Donate</h1>
-                <p align="center">
-                    <h3><span class="font-size=larger">Отправляя донат, вы поддерживаете автора и оплачиваете ему макдак</span></h3>
-                    <h2>Выберите куда отправить донатик</h2>
-                    <p align="center">
-                        <input type="button" class="btn" value="QIWI" onclick="location.href='https://qiwi.com/p/380957938955'">
-                        <br>
-                        <input type="button" class="btn" value="Donation Alerts" onclick="location.href='https://www.donationalerts.com/r/conradk10'">
-                    </p>
-                    <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('donate').style.display='none';"></p>
-                </p>
-            </div>
-        </div>
+    function is_shit() {
+      if (/MSIE/i.test(navigator.userAgent)) return true
+      if (/firefox/i.test(navigator.userAgent)) return true
+      if (/Trident/i.test(navigator.userAgent)) return true
+      if (/Edge/i.test(navigator.userAgent)) return true
+      return false
+    }
+    if (is_shit()) {
+      document.body.style.backgroundImage = "url('assets/anims/background.gif')";
+    }
+  </script>
 
-        <audio autoplay loop id="player">
-            <source src="assets/sounds/hill.mp3">
-            <script>
-                document.getElementById("player").volume = 0.5
-            </script>
-        </audio>
+  <div id="donate">
+    <div class="popup">
+      <h1>Donate</h1>
+      <p align="center">
+      <h3><span class="font-size=larger">Отправляя донат, вы поддерживаете автора и оплачиваете ему обучение)))</span></h3>
+      <h2>Выберите куда отправить донатик</h2>
+      <p align="center">
+        <input type="button" class="btn" value="QIWI" onclick="location.href='https://qiwi.com/p/380957938955'">
+        <br>
+        <input type="button" class="btn" value="Donation Alerts" onclick="location.href='https://www.donationalerts.com/r/conradk10'">
+      </p>
+      <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('donate').style.display='none';"></p>
+      </p>
+    </div>
+  </div>
 
-        <header class="center info">
-            <div class="center pizdec">
-                <div class="avatar-container"><img src="assets/images/ava.jpg" oncontextmenu="return false;" class="avatar"></div>
-                <h2><span id="name">/home/Conradk10</span></h2>
-                <hr width="295">
-                <h3><span id="description"></span></h3>
-                <hr width="295">
-                <h2>🔗 Полезные ссылки:</h2>
-            </div>
-
-            <div class="buttons">
-                <a href="javascript://" class="link" onclick="location.href='tg://user?id=121020442'">Telegram</a>
-                <a href="javascript://" class="link" onclick="location.href='https://vk.com/zxvghost666'">VK</a>
-                <a href="javascript://" class="link" onclick="location.href='https://github.com/Conradk10'">GitHub</a>
-            </div>
-
-            <div class="buttons">
-              <a href="javascript://" class="link" onclick="location.href='tg://resolve?domain=zxvghost666'">TG Redirect</a>
-              <a href="javascript://" class="link" onclick="location.href='tg://resolve?domain=zxvghost666'">TG MicroBlog</a>
-            </div>
-
-            <!--
-            <div class="buttons">
-                <a href="javascript://" class="link" onclick="location.href='/projects'">My projects</a>
-            </div>
-            -->
-
-            <div class="buttons">
-                <a href="javascript://" class="link" onclick="document.getElementById('donate').style.display='block'">Donate <3</a>
-            </div>
-
-            <hr width="295">
-
-            <div class="center pizdec">
-                <h2>🛠 Мои труды:</h2>
-            </div>
-
-            <div class="buttons">
-                <a href="javascript://" class="link" onclick="location.href='http://github.com/Conradk10/telegram-multibot'">Telegram Multibot (pre beta)</a>
-            </div>
-        </header>
-
-        <ul class="lightrope">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-
-        <script src="assets/js/snowfall.js"></script>
-        <script type="text/javascript">
-          $(document).snowfall();
-        </script>
-
-    </body>
+  <audio autoplay loop id="player">
+    <source src="assets/sounds/hill.mp3">
     <script>
-        $("#getpp").click(() => {
-            var text = $("#amount").val()
-            location.href=`https://w.qiwi.com/payment/form/31873?currency=RUB&amount=${text}&extra[%22account%22]=4890494695751495`
-        })
-        new Typed('#description', {
-            strings: ['Happy New Year!', 'Lamer from UA...', 'Love coding...', 'Pls donate me)'],
-            typeSpeed: 45,
-            backSpeed: 45,
-            cursorChar: '❚',
-            smartBackspace: true,
-            fadeOut: false,
-            loop: true
-        });
+      document.getElementById("player").volume = 0.5
     </script>
+  </audio>
+
+  <header class="center info">
+    <div class="center pizdec">
+      <div class="avatar-container"><img src="assets/images/ava.jpg" oncontextmenu="return false;" class="avatar"></div>
+      <h2><span id="name">/home/Conradk10</span></h2>
+      <hr width="295">
+      <h3><span id="description"></span></h3>
+      <hr width="295">
+      <h2>🔗 Полезные ссылки:</h2>
+    </div>
+
+    <div class="buttons">
+      <a href="javascript://" class="link" onclick="location.href='tg://user?id=121020442'">Telegram</a>
+      <a href="javascript://" class="link" onclick="location.href='https://vk.com/zxvghost666'">VK</a>
+      <a href="javascript://" class="link" onclick="location.href='https://github.com/Conradk10'">GitHub</a>
+    </div>
+
+    <div class="buttons">
+      <a href="javascript://" class="link" onclick="location.href='tg://resolve?domain=zxvghost666'">TG Redirect</a>
+      <a href="javascript://" class="link" onclick="location.href='tg://resolve?domain=zxvghost666'">TG MicroBlog</a>
+    </div>
+
+    <div class="buttons">
+      <a href="javascript://" class="link" onclick="document.getElementById('donate').style.display='block'">Donate <3< /a>
+    </div>
+
+    <hr width="295">
+
+    <div class="center pizdec">
+      <h2>🛠 Мои труды:</h2>
+    </div>
+
+    <div class="buttons">
+      <a href="javascript://" class="link" onclick="location.href='http://github.com/Conradk10/telegram-multibot'">Telegram Multibot (pre beta)</a>
+    </div>
+  </header>
+
+  <ul class="lightrope">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  <script src="assets/js/snowfall.js"></script>
+  <script type="text/javascript">
+    $(document).snowfall();
+  </script>
+
+</body>
+<script>
+  new Typed('#description', {
+    strings: ['Happy New Year!', 'Lamer from UA...', 'Love coding', 'Pls donate me)', 'Fuck Society!'],
+    typeSpeed: 45,
+    backSpeed: 45,
+    cursorChar: '❚',
+    smartBackspace: true,
+    fadeOut: false,
+    loop: true
+  });
+</script>
+
 </html>
